@@ -1,0 +1,63 @@
+name: click
+description: Flutter mvc architecture with getx state managment
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_indicator: ^1.0.6
+
+  # State managment
+  get: ^4.6.5
+
+  # SVG
+  flutter_svg:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_gen_runner:
+# Assets gen command
+#  fluttergen -c pubspec.yaml
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/svg/
+
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist/Urbanist-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Urbanist/Urbanist-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Urbanist/Urbanist-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Urbanist/Urbanist-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Urbanist/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Urbanist/Urbanist-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Urbanist/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Urbanist/Urbanist-Thin.ttf
+          weight: 100
